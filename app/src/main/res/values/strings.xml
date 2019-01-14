@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Been There, Done That!</string>
+    <string name="splash">Splash Screen</string>
+    <string name="appLogoTop">BEEN THERE</string>
+    <string name="appLogoBottom">DONE THAT!</string>
+    <string name="appVersionInfo">Version 3.5.1\nCopyright 2019 Javi\nAll Rights Reserved</string>
+    <string name="menu">Main Menu Screen</string>
+    <string name="menuName">MAIN MENU</string>
+    <string name="menuItemPlay">Play Game</string>
+    <string name="menuItemSettings">Settings</string>
+    <string name="menuItemScores">View Scores</string>
+    <string name="menuItemHelp">Help</string>
+    <string name="settings">Settings Screen</string>
+    <string name="game">Game Screen</string>
+    <string name="scores">Scores Screen</string>
+    <string name="help">Help Screen</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logoSize">48dp</dimen>
+    <dimen name="versionSize">15dp</dimen>
+    <dimen name="versionSpacing">3dp</dimen>
+    <dimen name="screenTitleSize">40dp</dimen>
+    <dimen name="menuItemSize">34dp</dimen>
+</resources>

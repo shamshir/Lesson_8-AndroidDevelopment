@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spacebackground"
+    tools:context=".QuizMenuActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/leftMenuImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/tinyplanet" />
+
+        <TextView
+            android:id="@+id/centerMenuName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/menuName"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/screenTitleSize"
+            android:shadowColor="@color/titleColor"
+            android:shadowDy="3"
+            android:shadowDx="3"
+            android:shadowRadius="30" />
+
+        <ImageView
+            android:id="@+id/rightMenuImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/tinyplanet" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListView_Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/RelativeLayout01"
+        android:divider="@drawable/greenlinetiny"
+        android:listSelector="@drawable/elipse"/>
+
+    <ImageView
+        android:id="@+id/bottomImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/halfearth" />
+</RelativeLayout>
